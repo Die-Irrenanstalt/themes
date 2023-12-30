@@ -1,5 +1,10 @@
 # DIADZ Themes
 
+## Programms
+
+[Spicetify](https://spicetify.app/)
+[Vencord(Recommended)](https://vencord.dev/)
+
 ## Spicetify
 
 ![diadz-spicetify](screenshots/diadz-spicetify.png)
