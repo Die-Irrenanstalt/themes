@@ -74,7 +74,7 @@ body {
 }
 
 .header__55964, .list__30719 {
-  background-color: var(--azurite-sec);
+  background-color: var(--azurite-bg);
 }
 
 .action_d01fae {
@@ -158,7 +158,7 @@ body {
 
 
 .contentWrapper__321ed, .wrapper__7a35f, .list-obNEuP,.inspector__993e1, .unicodeShortcut__1dd6b {
-  background-color: var(--azurite-sec);
+  background-color: var(--azurite-bg);
 }
 
 .userPopout-2j1gM4 {
@@ -1503,4 +1503,187 @@ display: none;
 .colorDefault__0b482.focused__27621 {
   background-color: #534257;
   color: var(--azurite-links);
+}
+
+.wrapper_cd625e {
+  background-color: var(--azurite-bg);
+  display: grid;
+  grid-template-rows: 1fr auto;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  width: 48px;
+  border-radius: 0 0 0 8px;
+}
+
+.body__59737 {
+  height: 100%;
+  padding: 0 16px;
+  border-radius: 0;
+  background-color: var(--azurite-bg);
+}
+
+.footer__89240 {
+  border-radius: 0 0 5px 5px;
+  background-color: var(--azurite-bg);
+}
+
+.modalHeaderCustomGift_af2c51 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  background-image: linear-gradient(var(--azurite-bg),var(--azurite-bg));
+  background-size: 100%calc(100% - 20px);
+  border-bottom: 1.5px solid var(--azurite-sec);
+}
+
+.theme-dark .footerSeparator__57d95 {
+  box-shadow: inset 0 1px 0 hsl(var(--azurite-sec)/.6);
+}
+
+.users__65981 {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  width: 28px;
+  padding: 0 8px 0 6px;
+  background-color: #de004e;
+}
+
+.total_c01838 {
+  box-sizing: border-box;
+  width: 20px;
+  position: relative;
+  padding: 0 6px 0 0;
+  background-color: var(--azurite-links);
+}
+
+.wrapper__5848b {
+  display: flex;
+  align-items: stretch;
+  flex: 0 0 auto;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 500;
+  height: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  color: #121313;
+}
+
+.total_c01838:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -8px;
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 0 solid transparent;
+  border-right: 8px solid transparent;
+  border-right-color: var(--azurite-links);
+}
+
+.container__77df0 {
+  box-shadow: var(--elevation-stroke),var(--elevation-high);
+  border-radius: var(--radius-sm);
+  background-color: var(--azurite-bg);
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.picker__6dca7 {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--azurite-bg);
+  height: 420px;
+  width: 531px;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  box-shadow: var(--elevation-high);
+}
+
+.soundButton__5ad7b {
+  box-sizing: border-box;
+  position: relative;
+  background: var(--azurite-bg);
+  /** border-radius: var(--radius-sm); **/
+  height: 40px;
+  width: 150px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  border: 1px solid var(--azurite-sec);
+  overflow: hidden;
+  text-align: center;
+}
+
+.mediaBarProgress__29db2 {
+  z-index: 3;
+  background-color: #de004e;
+}
+
+.mediaBarInteraction__0633c:hover .mediaBarGrabber_c64ff9 {
+  transform: scale(1);
+  background-color: var(--azurite-links);
+}
+
+.mediaBarInteractionDragging__0a2ee .mediaBarGrabber_c64ff9 {
+  transform: scale(1);
+  background-color: var(--azurite-bg);
+}
+
+.mediaBarWrapper_f312bd {
+  position: relative;
+  flex: 1 1 auto;
+  height: 6px;
+  background-color: var(--azurite-sec);
+}
+
+.mediaBarProgress__29db2:before, .mediaBarProgress__29db2:after {
+  background-color: #de004e;
+}
+
+.theme-dark .root_a28985, .theme-dark .footerSeparator-VzAYwb {
+  background-color: var(--azurite-sec);
+}
+
+.modalHeader_e68db4 {
+  background-color: var(--azurite-bg);
+}
+
+.modalDivider__67d13 {
+  width: 100%;
+  height: 1px;
+  background: var(--azurite-sec);
+  opacity: .06;
+}
+
+.scrollTierBackground__36806 {
+  width: 100%;
+  background-color: var(--azurite-bg);
+}
+
+.container_c344de {
+  box-shadow: var(--elevation-stroke),var(--elevation-high);
+  background-color: var(--azurite-bg);
+  overflow: hidden;
+  border-radius: 16px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 584px;
+}
+
+.posterDivider__594a0 {
+  height: 1px;
+  width: 100%;
+  background-color: var(--azurite-sec);
 }
