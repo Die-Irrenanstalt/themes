@@ -8,7 +8,7 @@
 
 /* user settings */
 :root {
-    --font-family: "DM Mono", monospace;
+    --font-family: "Anonymous Pro", monospace;
     /*
     --font-family: 'Anonymous Pro', monospace;
     --font-family: 'Courier Prime', monospace;
@@ -33,10 +33,10 @@
     --line-height: 1.2;
 
     --display-card-image: block; /* none | block */
-    --display-coverart-image: none; /* none | block */
-    --display-header-image: none; /* none | block */
+    --display-coverart-image: block; /* none | block */
+    --display-header-image: block; /* none | block */
     --display-library-image: block; /* none | block */
-    --display-tracklist-image: none; /* none | block */
+    --display-tracklist-image: block; /* none | block */
 
     --border-radius: 0px;
     --border-width: 1px;
