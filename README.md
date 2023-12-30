@@ -3,7 +3,8 @@
 ## Programms
 
 [Spicetify](https://spicetify.app/)
-[Vencord(Recommended)](https://vencord.dev/)
+
+[Vencord](https://vencord.dev/)(Recommended, others work too e.g. [BetterDiscord](https://betterdiscord.app/)
 
 ## Spicetify
 
