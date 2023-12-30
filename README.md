@@ -1,0 +1,2 @@
+# Spicetify-Text-Theme-DIADZ
+
