@@ -1650,7 +1650,7 @@ display: none;
   background-color: #de004e;
 }
 
-.theme-dark .root_a28985, .theme-dark .footerSeparator-VzAYwb {
+.theme-dark .footerSeparator-VzAYwb {
   background-color: var(--azurite-sec);
 }
 
@@ -1686,4 +1686,8 @@ display: none;
   height: 1px;
   width: 100%;
   background-color: var(--azurite-sec);
+}
+
+.theme-dark .root_a28985 {
+  background-color: var(--azurite-bg);
 }
