@@ -9,6 +9,10 @@
 ## Spicetify
 
 ![diadz-spicetify](screenshots/diadz-spicetify.png)
+
+![diadz-spicetify](screenshots/diadz-spicetify2.png)
+
+![diadz-spicetify](screenshots/diadz-spicetify3.png)
 (cat not included)
 
 -   **IMPORTANT:** Add the following to your `config-xpui.ini` file. Details as to why are explained [here](https://github.com/JulienMaille/spicetify-dynamic-theme#important). Run `spicetify apply` after adding these lines.
@@ -61,6 +65,14 @@ body::after {
 
 ![diadz-discord-server-popout](screenshots/diadz-discord-server-popout.png)
 (again, cat not included)
+
+---
+
+## Brave/Chrome
+
+![diadz-chromebrave1](screenshots/diadz-chromebrave1.png)
+
+![diadz-chromebrave2](screenshots/diadz-chromebrave2.png)
 
 ---
 
