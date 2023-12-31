@@ -6,7 +6,7 @@
  * @website https://diadz.de
  * @license MIT License
  * @version 1337
- * @source https://github.com/Saltssaumure/xp-discord-theme
+ * @source https://codeberg.org/DIADZ/DIADZ-Themes
 */
 
 @import url("https://api.fonts.coollabs.io/css2?family=Anonymous+Pro:wght@400;700&family=Courier+Prime:wght@400;700&family=Cousine:wght@400;700&family=Cutive+Mono&family=DM+Mono:wght@300;400;500&family=Fira+Mono:wght@400;500;700&family=IBM+Plex+Mono:wght@100;200;300;400;500;600;700&family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Nanum+Gothic+Coding:wght@400;700&family=PT+Mono&family=Roboto+Mono:wght@100;200;300;400;500;600;700&family=Share+Tech+Mono&family=Source+Code+Pro:wght@200;300;400;500;600;700;800;900&family=Space+Mono:wght@400;700&family=Ubuntu+Mono:wght@400;700&family=VT323&display=swap");
@@ -21,7 +21,7 @@
 	--avatar-radius: 5px;
 	--server-radius: 5px;
   --msg-bg-radius: 5px;
-	--font: 'Anonymous Pro', monospace;
+	--font: 'VT323', normal;
 }
 
 body {
