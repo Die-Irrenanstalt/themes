@@ -2,9 +2,11 @@
 
 ## Programms
 
-[Spicetify](https://spicetify.app/)
+Spotify: [Spicetify](https://spicetify.app/)
 
-[Vencord](https://vencord.dev/)(Recommended, others work too e.g. [BetterDiscord](https://betterdiscord.app/)
+Discord: [Vencord](https://vencord.dev/)(Recommended, others work too e.g. [BetterDiscord](https://betterdiscord.app/)
+
+Youtube: [Enhancer for YouTube™ Chrome](https://chrome.google.com/webstore/detail/enhancer-for-youtube/ponfpcnoihfmfllpaingbgckeeldkhle) or [Enhancer for YouTube™ Firefox (Currently unavailable)](https://addons.mozilla.org/addon/enhancer-for-youtube/) 
 
 ## Spicetify
 
@@ -76,11 +78,23 @@ body::after {
 
 ---
 
+## Youtube
+
+![diadz-youtube](screenshots/diadz-youtube.png)
+
+![diadz-youtube2](screenshots/diadz-youtube2.png)
+
+![diadz-youtube3](screenshots/diadz-youtube3.png)
+
+---
+
 ## Credits
 
 [DevEvil99](https://github.com/DevEvil99) for his [Discord Theme](https://github.com/DevEvil99/Azurite-Discord-Theme)
 
 [darkthemer](https://github.com/darkthemer/) for their [Spicetify Mimic](https://github.com/spicetify/spicetify-themes/tree/master/text) of [spotify-tui](https://github.com/Rigellute/spotify-tui)
+
+[Lordicon](https://lordicon.com) for their awesome animated icons
 
 ---
 
@@ -88,7 +102,7 @@ body::after {
 
 MIT License
 
-Copyright (c) 2023 benni18957
+Copyright (c) 2023 DIADZ
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
