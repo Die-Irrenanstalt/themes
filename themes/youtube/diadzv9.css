@@ -1,5 +1,10 @@
 /*IMPORTANT!!!! DOWNLOAD THE 'ENHANCER FOR YOUTUBE' AND ENABLE THE DEEP DARK THEME OTHERWISE THIS CSS CODE DOES NOTHING!!!!!*/
 
+/*
+DIADZ V9
+Made by benni18957 and niki136321
+*/
+
 @import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&family=Courier+Prime:wght@400;700&family=Cousine:wght@400;700&family=Cutive+Mono&family=DM+Mono:wght@300;400;500&family=Fira+Mono:wght@400;500;700&family=IBM+Plex+Mono:wght@100;200;300;400;500;600;700&family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Nanum+Gothic+Coding:wght@400;700&family=PT+Mono&family=Roboto+Mono:wght@100;200;300;400;500;600;700&family=Share+Tech+Mono&family=Source+Code+Pro:wght@200;300;400;500;600;700;800;900&family=Space+Mono:wght@400;700&family=Ubuntu+Mono:wght@400;700&family=VT323&display=swap");
 
 @font-face {
@@ -16,30 +21,6 @@ yt-icon.ytd-logo {
 	content: url('https://testing.diadz.de/public/diadz-spotify.svg') !important;
 }
 
-ytd-searchbox[system-icons] #search-icon-legacy.ytd-searchbox yt-icon.ytd-searchbox {
-    width: 24px;
-    height: 24px;
-    color: var(--yt-spec-text-primary);
-	content: url('https://testing.diadz.de/public/gradient-magnifier-zoom-search-v8.gif');
-}
-
-.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--text {
-    color: var(--yt-spec-text-primary);
-    content: url('https://testing.diadz.de/public/gradient-microphone-recording-v8.gif');
-    width: 40px;
-    height: 40px;
-}
-
-/*.yt-spec-button-shape-next--size-m .yt-spec-button-shape-next__icon {
-    width: 24px;
-    height: 24px;
-	content: url('https://testing.diadz.de/public/gradient-microphone-recording-v8.gif');
-}*/
-
-ytd-guide-entry-renderer[active] .guide-icon.ytd-guide-entry-renderer {
-    color: var(--yt-spec-brand-icon-active);
-	content: url('https://testing.diadz.de/public/gradient-home3d-loop-v8.gif');
-}
 
 .button-container.ytd-rich-shelf-renderer {
     position: absolute !important;

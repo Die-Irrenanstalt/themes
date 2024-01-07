@@ -4,20 +4,29 @@
 
 Spotify: [Spicetify](https://spicetify.app/)
 
-Discord: [Vencord](https://vencord.dev/)(Recommended, others work too e.g. [BetterDiscord](https://betterdiscord.app/)
+Discord: [Vencord](https://vencord.dev/) (Recommended, but others work too e.g. [BetterDiscord](https://betterdiscord.app/))
 
-Youtube: [Enhancer for YouTube™ Chrome](https://chrome.google.com/webstore/detail/enhancer-for-youtube/ponfpcnoihfmfllpaingbgckeeldkhle) or [Enhancer for YouTube™ Firefox (Currently unavailable)](https://addons.mozilla.org/addon/enhancer-for-youtube/) 
+YouTube: [Enhancer for YouTube™](https://www.mrfdev.com/enhancer-for-youtube)
 
-## Spicetify
+---
 
-![diadz-spicetify](screenshots/diadz-spicetify.png)
+## Installation
 
-![diadz-spicetify](screenshots/diadz-spicetify2.png)
+#### Spicetify
 
-![diadz-spicetify](screenshots/diadz-spicetify3.png)
-(cat not included)
+- Windows -> **PowerShell**: 
 
--   **IMPORTANT:** Add the following to your `config-xpui.ini` file. Details as to why are explained [here](https://github.com/JulienMaille/spicetify-dynamic-theme#important). Run `spicetify apply` after adding these lines.
+```powershell
+iwr -useb https://codeberg.org/DIADZ/DIADZ-Themes/raw/branch/main/scripts/spicetify/install.ps1 | iex
+```
+
+- macOS and Linux -> **Bash**:
+
+```bash
+curl -fsSL https://codeberg.org/DIADZ/DIADZ-Themes/raw/branch/main/scripts/spicetify/install.sh | sh
+```
+
+*   **IMPORTANT:** Add the following to your `config-xpui.ini` file. Details as to why are explained [here](https://github.com/JulienMaille/spicetify-dynamic-theme#important). Run `spicetify apply` after adding these lines.
 
 ```ini
 [Patch]
@@ -27,64 +36,102 @@ xpui.js_find_8008 = ,(\w+=)56,
 xpui.js_repl_8008 = ,${1}32,
 ```
 
--   **SUGGESTION:** For Windows users, here's how to make the window controls' background match with the topbar background
+#### Discord
 
-    -   Put this snippet into your `user.css` (or through the Marketplace's `+ Add CSS` feature)
+- Ensure that you have installed a client mod like [Vencord](https://vencord.dev) or [BetterDiscord](https://betterdiscord.app)
+- Download the [diadzv9-discord.css](https://codeberg.org/DIADZ/DIADZ-Themes/raw/branch/main/themes/discord/diadzv9-discord.css)
+- **Vencord:** Open settings and go to Themes, Inside click on **Open Themes Folder** and place the **diadzv9-discord.css** inside of it, Click on **Load missing Themes** and enable the Theme.
+- **BetterDiscord:** Same as above with the difference that you need to press ```CTRL+R``` to refresh Discord and see missing Themes
 
-```css
-/* transparent window controls background */
-body::after {
-    content: "";
-    position: absolute;
-    right: 0;
-    z-index: 999;
-    backdrop-filter: brightness(2.12);
-    /* page zoom [ctrl][+] or [ctrl][-]
-       edit width and height accordingly
-        69%  = 194px 45px
-        76%  = 177px 40.5px
-        83%  = 162px 37.5px
-        91%  = 148px 34px
-        100% = 135px 31px (default)
-        110% = 123px 28.5px
-    */
-    width: 135px;
-    height: 31px;
-}
+
+#### Brave/Chrome
+
+- Go to ```chrome://extensions``` and enable Developer mode
+- Reload the extension manager page to avoid errors
+- Download the [diadz-brave.zip](https://codeberg.org/DIADZ/DIADZ-Themes/raw/branch/main/themes/brave-chrome/diadzv9-brave.zip)
+- Finally, Drag and drop the **diadz-brave.zip** file into the extension manager
+
+#### Vivaldi
+
+- Download the [diadzv9-vivaldi.zip](https://codeberg.org/DIADZ/DIADZ-Themes/raw/branch/main/themes/vivaldi/diadzv9-vivaldi.zip)
+- Go to settings and click on Themes
+- Click on Open Theme and choose the **diadzv9-vivaldi.zip** you downloaded before
+- Finally, Click on install in the pop-up window
+
+#### YouTube
+
+- Make sure you installed [Enhancer for YouTube™](https://www.mrfdev.com/enhancer-for-youtube) and that you have enabled YouTube-DeepDark
+- Finally, Open the [diadzv9.css](https://codeberg.org/DIADZ/DIADZ-Themes/raw/branch/main/themes/youtube/diadzv9.css) and paste the code inside it into the Custom theme window
+
+---
+
+## Uninstallation
+
+#### Spicetify
+
+- Windows -> **PowerShell**: 
+
+```powershell
+iwr -useb https://codeberg.org/DIADZ/DIADZ-Themes/raw/branch/main/scripts/spicetify/uninstall.ps1 | iex
 ```
 
-![winctrl](screenshots/winctrl.png)
+- macOS and Linux -> **Bash**:
+
+```bash
+curl -fsSL https://codeberg.org/DIADZ/DIADZ-Themes/raw/branch/main/scripts/spicetify/uninstall.sh | sh
+```
+
+#### Discord
+-  Go to the Theme folder and delete the .css file
+
+#### Brave/Chrome
+- Go to your browsers design settings and reset them to default
+
+#### Vivaldi
+- Click on the minus at the top right of the Theme preview
+
+#### YouTube
+- Remove the CSS code and save
 
 ---
 
-## Discord
+## Screenshots
 
-![diadz-discord-home](screenshots/diadz-discord-home.png)
+### Spicetify
 
-![diadz-discord-rmenu](screenshots/diadz-discord-rmenu.png)
+![diadzv9-spicetify](screenshots/diadzv9-spicetify.webp)
 
-![diadz-discord-server](screenshots/diadz-discord-server.png)
+![diadzv9-spicetify](screenshots/diadzv9-spicetify2.webp)
 
-![diadz-discord-server-popout](screenshots/diadz-discord-server-popout.png)
+![diadzv9-spicetify](screenshots/diadzv9-spicetify3.webp)
+(cat not included)
+
+### Discord
+
+![diadzv9-discord-home](screenshots/diadzv9-discord-home.webp)
+
+![diadzv9-discord-server](screenshots/diadzv9-discord-server.webp)
+
+![diadzv9-discord-server-popout](screenshots/diadzv9-discord-server-popout.webp)
 (again, cat not included)
 
----
+### Brave/Chrome
 
-## Brave/Chrome
+![diadzv9-chromebrave](screenshots/diadzv9-chromebrave.webp)
 
-![diadz-chromebrave1](screenshots/diadz-chromebrave1.png)
+### Vivaldi
 
-![diadz-chromebrave2](screenshots/diadz-chromebrave2.png)
+![diadzv9-vivaldi](screenshots/diadzv9-vivaldi.webp)
 
----
+### YouTube
 
-## Youtube
+![diadzv9-youtube-home](screenshots/diadzv9-youtube-home.webp)
 
-![diadz-youtube](screenshots/diadz-youtube.png)
+![diadzv9-youtube-channel](screenshots/diadzv9-youtube-channel.webp)
 
-![diadz-youtube2](screenshots/diadz-youtube2.png)
+![diadzv9-youtube-video](screenshots/diadzv9-youtube-video.webp)
 
-![diadz-youtube3](screenshots/diadz-youtube3.png)
+![diadzv9-youtube-comments](screenshots/diadzv9-youtube-comments.webp)
 
 ---
 
@@ -96,16 +143,9 @@ body::after {
 
 [Lordicon](https://lordicon.com) for their awesome animated icons
 
+Me [benni18957](https://benni18957.de) for creating the backgrounds and logos for DIADZ
+
 ---
 
 ## License
-
-MIT License
-
-Copyright (c) 2023 DIADZ
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+The project itself is licensed under the [MIT](LICENSE) license, and the images and logos owned by [DIADZ](https://diadz.de) are licensed under the [Creative Commons Attribution-NonCommercial 4.0 International](https://creativecommons.org/licenses/by-nc/4.0/) license.
