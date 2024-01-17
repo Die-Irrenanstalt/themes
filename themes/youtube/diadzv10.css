@@ -879,3 +879,42 @@ ytd-comments-header-renderer[modern-typography] .count-text.ytd-comments-header-
 }
 
 /*End*/
+
+ytd-watch-flexy[rounded-player-large][default-layout] #ytd-player.ytd-watch-flexy {
+    overflow: hidden;
+    border-radius: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+ytd-thumbnail[size=medium] a.ytd-thumbnail, ytd-thumbnail[size=medium]:before {
+    border-radius: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+ytd-thumbnail[size=large] a.ytd-thumbnail, ytd-thumbnail[size=large]:before {
+    border-radius: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.player-container.ytd-reel-video-renderer {
+    height: 100%;
+    width: 100%;
+    border-radius: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    overflow: hidden;
+    background-size: cover;
+    position: relative;
+    background-color: var(--yt-spec-static-overlay-background-heavy);
+}
