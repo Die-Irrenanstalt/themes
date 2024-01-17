@@ -132,11 +132,15 @@ curl -fsSL https://codeberg.org/DIADZ/DIADZ-Themes/raw/branch/main/scripts/spice
 
 ### GRUB
 
+#### DIADZ V10 CRT
+
 ![DIADZV10CRT](screenshots/DIADZV10CRT.webp)
-DIADZ V10 CRT
+
+---
+
+#### DIADZ V10 OLD BIOS
 
 ![DIADZV10OLDBIOS](screenshots/DIADZV10OLDBIOS.webp)
-DIADZ V10 OLD BIOS
 
 ## Credits
 
