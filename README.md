@@ -112,6 +112,8 @@ curl -fsSL https://codeberg.org/DIADZ/DIADZ-Themes/raw/branch/main/scripts/spice
 ![diadzv10-discord-server-popout](screenshots/diadzv10-discord-server-popout.webp)
 (again, cat not included)
 
+![diadztranslucence](screenshots/diadztranslucence.webp)
+
 ### Brave/Chrome
 
 ![diadzv10-chromebrave](screenshots/diadzv10-chromebrave.webp)
@@ -131,12 +133,6 @@ curl -fsSL https://codeberg.org/DIADZ/DIADZ-Themes/raw/branch/main/scripts/spice
 ![diadzv10-youtube-comments](screenshots/diadzv10-youtube-comments.webp)
 
 ### GRUB
-
-#### DIADZ V10 CRT
-
-![DIADZV10CRT](screenshots/DIADZV10CRT.webp)
-
----
 
 #### DIADZ V10 OLD BIOS
 
