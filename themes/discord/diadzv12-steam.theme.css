@@ -1,0 +1,20 @@
+/**
+ * @name DIADZ Steam
+ * @author DIADZ, maenDisease
+ * @version 1.0.0
+ * @description Steam UI on Discord. edited for DIADZ
+ * @source https://github.com/Die-Irrenanstalt/themes
+ * @website https://themes.diadz.de/
+*/
+
+@import url('https://themes.diadz.de/code/discord/diadzv12-steam-base.css');
+
+@import url(https://maendisease.github.io/Steam/addons/horizontalserverlist.css);
+:root {
+  --hue-shift: 150; /* 0-360 */
+  --content-width: 940px; /* 100% = Full Width */
+  --message-width: 640px;
+  --server-size: 28px;
+  --custom-font: "Roboto";
+  --custom-font-code: monospace;
+}
