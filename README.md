@@ -41,13 +41,6 @@ xpui.js_repl_8008 = ,${1}32,
 - **Vencord:** Open settings and go to Themes, Inside click on **Open Themes Folder** and place the **diadzv10-discord.css** inside of it, Click on **Load missing Themes** and enable the Theme.
 - **BetterDiscord:** Same as above with the difference that you need to press ```CTRL+R``` to refresh Discord and see missing Themes
 
-### Brave/Chrome
-
-- Go to ```chrome://extensions``` and enable Developer mode
-- Reload the extension manager page to avoid errors
-- Download the [diadz-brave.zip](https://codeberg.org/DIADZ/DIADZ-Themes/raw/branch/main/themes/brave-chrome/diadzv10-brave.zip)
-- Finally, Drag and drop the **diadz-brave.zip** file into the extension manager
-
 ### Vivaldi
 
 - Download the [diadzv10-vivaldi.zip](https://codeberg.org/DIADZ/DIADZ-Themes/raw/branch/main/themes/vivaldi/diadzv10-vivaldi.zip)
@@ -80,10 +73,6 @@ curl -fsSL https://codeberg.org/DIADZ/DIADZ-Themes/raw/branch/main/scripts/spice
 
 - Go to the Theme folder and delete the .css file
 
-### Brave/Chrome
-
-- Go to your browsers design settings and reset them to default
-
 ### Vivaldi
 
 - Click on the minus at the top right of the Theme preview
@@ -92,52 +81,6 @@ curl -fsSL https://codeberg.org/DIADZ/DIADZ-Themes/raw/branch/main/scripts/spice
 
 - Remove the CSS code and save
 
-## Screenshots
-
-### Spicetify
-
-![diadzv10-spicetify](screenshots/diadzv10-spicetify.webp)
-
-![diadzv10-spicetify](screenshots/diadzv10-spicetify2.webp)
-
-![diadzv10-spicetify](screenshots/diadzv10-spicetify3.webp)
-(cat not included)
-
-### Discord
-
-![diadzv10-discord-home](screenshots/diadzv10-discord-home.webp)
-
-![diadzv10-discord-server](screenshots/diadzv10-discord-server.webp)
-
-![diadzv10-discord-server-popout](screenshots/diadzv10-discord-server-popout.webp)
-(again, cat not included)
-
-![diadztranslucence](screenshots/diadztranslucence.webp)
-
-### Brave/Chrome
-
-![diadzv10-chromebrave](screenshots/diadzv10-chromebrave.webp)
-
-### Vivaldi
-
-![diadzv10-vivaldi](screenshots/diadzv10-vivaldi.webp)
-
-### YouTube
-
-![diadzv10-youtube-home](screenshots/diadzv10-youtube-home.webp)
-
-![diadzv10-youtube-channel](screenshots/diadzv10-youtube-channel.webp)
-
-![diadzv10-youtube-video](screenshots/diadzv10-youtube-video.webp)
-
-![diadzv10-youtube-comments](screenshots/diadzv10-youtube-comments.webp)
-
-### GRUB
-
-#### DIADZ V10 OLD BIOS
-
-![DIADZV10OLDBIOS](screenshots/DIADZV10OLDBIOS.webp)
-
 ## Credits
 
 [DevEvil99](https://github.com/DevEvil99) for his [Discord Theme](https://github.com/DevEvil99/Azurite-Discord-Theme)
@@ -145,8 +88,6 @@ curl -fsSL https://codeberg.org/DIADZ/DIADZ-Themes/raw/branch/main/scripts/spice
 [darkthemer](https://github.com/darkthemer/) for their [Spicetify Mimic](https://github.com/spicetify/spicetify-themes/tree/master/text) of [spotify-tui](https://github.com/Rigellute/spotify-tui)
 
 [Lordicon](https://lordicon.com) for their awesome animated icons
-
-Me [benni18957](https://benni18957.de) for creating the backgrounds and logos for DIADZ
 
 ## License
 
